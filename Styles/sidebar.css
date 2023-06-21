@@ -1,0 +1,68 @@
+#sidebar{
+    width: 15%;
+    /* border: 3px solid yellow; */
+    height: auto;
+    position: fixed;
+
+}
+
+#sidebar>div:nth-child(1){
+    display: flex;
+    padding-top: 5%;
+    padding-left: 5%;
+    margin-bottom: 10%;
+}
+
+#hamburger_menu{
+   /* border: 1px solid salmon; */
+   margin-left: 5%;
+}
+
+#hamburger_menu>div{
+   width: 30px;
+   height: 3px;
+   background-color: black;
+   /* border: 1px solid red; */
+   margin: 5px;
+   
+}
+
+#youtube_logo{
+    width:50%;
+    height: 30px;
+    margin-left: 25px;
+}
+
+
+.sidebar_boxs{
+    /* border: 1px solid red; */
+    width: 85%;
+    height: 40px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 10%;
+    /* margin-top: 5%; */
+    /* padding-bottom: 7px; */
+}
+.sidebar_imgs{
+    width: 12%;
+    /* display: block; */
+    /* border: 1px solid red; */
+    /* margin-bottom: 7%; */
+    
+}
+.sidebar_names{
+    margin-left: 5%;
+    /* margin-bottom: 7%; */
+}
+
+.horizantal_line2{
+    width: 85%;
+    margin: 7% 0;
+}
+
+#subscription{
+    margin-bottom: 4%;
+    margin-left: 10%;
+}

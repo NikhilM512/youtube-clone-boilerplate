@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link rel="icon" href="https://www.iconpacks.net/icons/2/free-youtube_logo-icon-2431-thumb.png" type="image/icon type">
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+         }
+
+         body{
+            display: flex;
+         }
+         #container{
+            width: 80%;
+         }
+        #navbar{
+            width: 100%;
+            /* border: 2px solid yellowgreen; */
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        #sidebar{
+            width: 20%;
+            border: 3px solid yellow;
+            height: 100vh;
+
+        }
+
+        #sidebar>div{
+            display: flex;
+            padding-top: 5%;
+            padding-left: 5%;
+        }
+
+        #hamburger_menu{
+           border: 1px solid salmon;
+        }
+
+        #hamburger_menu>div{
+           width: 30px;
+           height: 4px;
+           background-color: black;
+           border: 1px solid;
+           margin: 5px;
+        }
+
+        #youtube_logo{
+            width:40%;
+            height: 30px;
+            margin-left: 25px;
+        }
+
+        #search_box{
+            width: 85%;
+            height: 100%;
+            border: 2px solid #ccc;
+            padding-left: 2%;
+        }
+
+        #left_box{
+            width: 50%;
+            height: 70%;
+            border: 1px solid green;
+            display: flex;
+            align-items: center;
+        }
+        #left_box div{
+            background-color: #ccc;
+            width: 10%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #search_icon{
+            width: 50%;
+        }
+        #right_box{
+            width: 20%;
+            height: 70%;
+            border: 1px solid red;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #mic_icon{
+            width: 30px;
+            margin:0 2%;
+            height: 75%;
+        }
+
+        #right_box>img{
+            height: 80%;
+        }
+        
+        .horizantal_line{
+            background-color:#ccc;
+            width: 98%;
+            margin-left: 2%;
+            height: 2px;
+        }
+
+        #filter_box{
+            height: 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            /* flex-wrap:nowrap; */
+            align-items: center;
+            width: 98%;
+            margin-left: 2%;
+            /* border: 1px solid black; */
+        }
+
+        .filter_tag{
+             margin-left: 2%;
+             border: 1px solid #ccc;
+             height: 75%;
+             display: flex;
+             align-items: center;
+             padding:0 7px;
+             border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Sidebar -->
+
+    <div id="sidebar">
+        <div>
+            <div id="hamburger_menu">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <img id="youtube_logo" src="./assets/Youtube logo.png" alt="youtube_logo-img">
+        </div>
+    </div>
+    <div id="container">
+        <!-- Navbar -->
+        <div id="navbar">
+            <div id="left_box">
+                <input id="search_box" placeholder="Search"></input>
+                <div>
+                    <img id="search_icon" src="./assets/search.png" alt="search_icon">
+                </div>
+                <img id="mic_icon" src="./assets/voice-search.png" alt="mic-img">
+            </div>
+            
+            <div id="right_box">
+                <img src="./assets/create-1.png" alt="recording-logo">
+                <img src="./assets/more.png" alt="more-logo">
+                <img src="./assets/create.png" alt="bell-icon">
+                <img src="./assets/Ellipse 4-8.png" alt="profile-pic">
+            </div>
+        </div>
+
+        <hr class="horizantal_line">
+
+        <div id="filter_box">
+               <div class="filter_tag">
+                    <h4>All</h4>
+               </div>
+
+               <div class="filter_tag">
+                   <h4>Coke Studio</h4>
+               </div>
+
+               <div class="filter_tag">
+                   <h4>UX</h4>
+               </div>
+           
+               <div class="filter_tag">
+                    <h4>Case Study</h4>
+                </div>
+
+                <div class="filter_tag">
+                    <h4>Music</h4>
+                </div>
+
+                <div class="filter_tag">
+                    <h4>Bangla Lofi</h4>
+                </div>
+
+                <div class="filter_tag">
+                    <h4>Tour</h4>
+                </div>
+
+                <div class="filter_tag">
+                    <h4>SaintMartin</h4>
+                </div>
+
+                <div class="filter_tag">
+                    <h4>Tech</h4>
+                </div>
+
+                <div class="filter_tag">
+                    <h4>iPhone 13</h4>
+                </div>
+
+                <div class="filter_tag">
+                    <h4>User Interface Design</h4>
+                </div>
+
+               
+
+        </div>
+
+        <hr class="horizantal_line">
+    </div>
+</body>
+</html>
